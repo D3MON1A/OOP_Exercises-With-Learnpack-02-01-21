@@ -8,7 +8,15 @@ class Person{
 	    let ageDifMs = Date.now() - this._birthday.getTime();
 	    let ageDate = new Date(ageDifMs); // milliseconds from epoch
 	    return Math.abs(ageDate.getUTCFullYear() - 1970);
-	}
+    }
+    canDrinkAlcohol(){
+         if (this.getAge() >= 21 ){
+      return true
+    }
+    else{
+      return false
+    }
+    }
 	
 	
 }
