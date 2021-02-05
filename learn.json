@@ -1,7 +1,7 @@
 {
     "config": {
         "port": 3000,
-        "address": "https://f66f4540-06e8-45b2-9427-b66c44f0cd6c.ws-us03.gitpod.io",
+        "address": "https://turquoise-caterpillar-e3bjxpqo.ws-us03.gitpod.io",
         "editor": {
             "mode": "gitpod",
             "version": "1.0.5"
@@ -14,6 +14,9 @@
         "exercisesPath": "./exercises",
         "disableGrading": false,
         "actions": [
+            "build",
+            "test",
+            "reset",
             "build",
             "test",
             "reset"
@@ -62,7 +65,7 @@
             "translations": {
                 "us": "README.md"
             },
-            "language": "node",
+            "language": "markdown",
             "title": "01-introduction",
             "graded": false,
             "files": [
@@ -304,7 +307,7 @@
                     "hidden": true
                 }
             ],
-            "done": true
+            "done": false
         }
     ]
 }
